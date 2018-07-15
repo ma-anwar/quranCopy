@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+  <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" >
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <main>
+    <h2>Quran Copy</h2>
+    <br>
+    <form id="frm" autocomplete="off">
+      Chapter #
+      <input type=textarea name="chapter" id="chapter" class="inputs" maxlength="3">
+      <span id="verseLabel">Verse # </span>
+      <input type=textarea name="verse" id="verse" class="inputs" maxlength="3">
+      <br>
+      <input type="checkbox" name="checkbox" id="checkbox">
+      <label for="checkbox">Translation</label>
+      <select name="translations" id="translations">
+          <option value=1>Arberry</option>
+          <option value=2>Pickthall</option>
+          <option value=3>Qarai</option>
+          <option value=4>Saheeh International</option>
+          <option value=5>Shakir</option>
+          <option value=6>Yusuf Ali</option>
+      </select>
+    </form>
+    <br>
+    <div id="result">
+    </div>
+  </main>
+  <script type="text/javascript" src="thirdParty/jquery-3.3.1.min.js"> </script>
+  <script type ="text/javascript" src="popup.js"> </script>
+</html>

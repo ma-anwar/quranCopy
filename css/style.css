@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+}
+* {
+  user-select:none;
+  font-family: 'Open Sans', sans-serif;
+}
+body{
+  /*background-color: #F0F0F0;*/
+  background-image: url("funky-lines.png");
+}
+h2 {
+text-align: center;
+margin-bottom:0;
+padding-bottom:0;
+}
+#arabicText {
+  direction:rtl;
+}
+#btn {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+#chapter {
+  width:25px;
+}
+#cpybtn {
+  color:#0645AD;
+  text-align: right;
+  font-size:.8em;
+
+}
+#cpybtn:hover {
+  text-decoration: underline;
+  cursor:pointer;
+
+}
+#frm {
+  font-size: 1.1em;
+}
+#result{
+  text-align:center;
+  font-size: 1.5em;
+  display:none;
+}
+#resulttxt {
+  font-size: 1.1em;
+  border-width: thin;
+  border-style: solid;
+  padding: 5px;
+  margin-top: 5x;
+  user-select: text;
+}
+#translations{
+  width:200px;
+}
+#verse {
+  width:25px;
+}
+#verseLabel {
+  padding-left: 2px;
+}
